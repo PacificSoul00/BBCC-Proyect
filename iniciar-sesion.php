@@ -17,15 +17,15 @@
         <div class="card bg-white shadow-lg">
           <div class="card-body p-5">
             <form class="mb-3 mt-md-4">
-              <img class="logo-book" src="img/logo.png" alt="" width="450px">
+              <img class="logo-book" src="img/logo.png" alt="Bookcomputer" width="450px">
               <h2 class="fw-bold mb-2 text-uppercase ">Iniciar Sesión</h2>
               <div class="mb-3">
-                <label for="text" class="form-label ">Rut</label>
-                <input type="text" class="form-control" id="rut" placeholder="12345678-9">
+                <label for="text" class="form-label ">Usuario</label>
+                <input type="text" class="form-control" id="usuario" placeholder="username" required>
               </div>
               <div class="mb-3">
                 <label for="password" class="form-label ">Contraseña</label>
-                <input type="password" class="form-control" id="password" placeholder="*******">
+                <input type="password" class="form-control" id="contrasena" placeholder="*******" required>
               </div>
               <div class="d-grid">
                 <button class="btn btn-outline-dark" type="submit">Iniciar Sesión</button>
